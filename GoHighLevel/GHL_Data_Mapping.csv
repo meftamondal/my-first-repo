@@ -1,0 +1,31 @@
+GHL Field,Your Field (Sheet),Dashboard Field,Endpoint,Data Type,Notes
+call.id,id,call_id,/calls/,String,Unique call ID
+call.contactId,contact_id,client_id,/calls/,String,Links to contact
+call.userId,sdr_id,sales_rep,/calls/,String,SDR who made the call
+call.date,date,call_date,/calls/,Date,Format: YYYY-MM-DD
+call.duration,duration_minutes,call_duration,/calls/,Integer,In minutes
+call.status,status,call_result,/calls/,String,completed / no_show / cancelled
+call.disqualificationReason,disqualification_reason,disqualification_reason,/calls/,String,budget / no_need / wrong_fit
+contact.id,contact_id,client_id,/contacts/,String,Unique contact ID
+contact.firstName,first_name,first_name,/contacts/,String,Contact first name
+contact.lastName,last_name,last_name,/contacts/,String,Contact last name
+contact.email,email,email,/contacts/,String,Contact email
+contact.phone,phone,phone,/contacts/,String,Contact phone number
+contact.status,status,lead_status,/contacts/,String,lead / prospect / customer / disqualified
+contact.createdAt,created_at,lead_date,/contacts/,Date,Date contact was added
+opportunity.id,deal_id,deal_id,/opportunities/,String,Unique deal ID
+opportunity.name,deal_name,deal_name,/opportunities/,String,Name of the deal
+opportunity.type,deal_type,deal_type,/opportunities/,String,part-time / full-time
+opportunity.value,value_usd,deal_value,/opportunities/,Integer,Deal value in USD
+opportunity.stage,stage,deal_stage,/opportunities/,String,discovery / proposal / closed_won / closed_lost
+opportunity.closeDate,close_date,close_date,/opportunities/,Date,Expected close date
+opportunity.year,year,deal_year,/opportunities/,Integer,2023 / 2024 / 2025 / 2026
+sdr.id,sdr_id,sdr_id,/users/,String,Unique SDR ID
+sdr.name,name,sdr_name,/users/,String,Full name of SDR
+sdr.email,email,sdr_email,/users/,String,SDR email
+sdr.role,role,sdr_role,/users/,String,Junior SDR / Senior SDR / Team Lead
+sdr.type,type,employment_type,/users/,String,part-time / full-time
+sdr.region,region,region,/users/,String,North / South / East / West
+pipeline.id,pipeline_id,pipeline_id,/pipelines/,String,Unique pipeline ID
+pipeline.name,pipeline_name,pipeline_name,/pipelines/,String,Name of pipeline
+pipeline.stage,stage_name,pipeline_stage,/pipelines/,String,Current stage name
