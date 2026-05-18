@@ -1,0 +1,6 @@
+CustomerID,CustomerName,Region,Segment,JoinDate
+C001,Rahim Ahmed,Dhaka,Corporate,2023-03-10
+C002,Karim Hossain,Chittagong,SMB,2023-05-22
+C003,Nila Begum,Sylhet,Retail,2023-07-15
+C004,Sumon Mia,Rajshahi,SMB,2023-09-01
+C005,Fatema Akter,Dhaka,Corporate,2023-11-18
